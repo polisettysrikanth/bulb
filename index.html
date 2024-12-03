@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body align='center'>
+    <button onclick="off()">OFF</button>
+    <img id='img' src="off.jpg" width=300 height=300>
+    <button onclick="on()">ON</button>
+    <script>
+      function off(){
+		let e=document.getElementById('img')
+		e.src="off.jpg"
+		}
+      function on(){
+		let e=document.getElementById('img')
+		e.src="on.jpg"
+		}
+    </script>
+  </body>
+</html>
